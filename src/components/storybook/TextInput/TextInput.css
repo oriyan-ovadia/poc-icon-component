@@ -1,0 +1,17 @@
+.TextInput_root {
+  height: 40px;
+  padding-inline: 0.75rem;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding-block: 0;
+  width: 100%;
+}
+
+.TextInput_root:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 2px, rgb(148, 163, 184) 0px 0px 0px 4px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}

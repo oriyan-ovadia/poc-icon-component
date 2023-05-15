@@ -1,0 +1,58 @@
+* {
+  font-family: 'Inter', 'manrope', system-ui;
+  box-sizing: border-box;
+  /* -webkit-font-smoothing: antialiased; */
+}
+
+button {
+  border: 0;
+  background: 0;
+}
+
+button:focus-visible {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 2px, rgb(148, 163, 184) 0px 0px 0px 4px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.icon-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 12px;
+  row-gap: 16px;
+}
+
+.btn-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-icon:hover {
+  background-color: #fcfcfc;
+}
+
+.icon-name {
+  font-size: 13px;
+  min-height: 40px;
+  color: hsl(215.4 16.3% 46.9%);
+}

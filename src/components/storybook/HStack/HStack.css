@@ -1,0 +1,15 @@
+.HStack_root {
+  display: flex;
+}
+
+.HStack--sm {
+  column-gap: 12px;
+}
+
+.HStack--md {
+  column-gap: 20px;
+}
+
+.HStack--lg {
+  column-gap: 24px;
+}

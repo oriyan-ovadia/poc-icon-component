@@ -1,0 +1,39 @@
+.Tooltip_content {
+  border-radius: 6px;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  animation-duration: 200ms;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.Tooltip_content[data-side='top'] {
+  animation-name: slideUp;
+}
+
+.Tooltip_content[data-side='bottom'] {
+  animation-name: slideDown;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

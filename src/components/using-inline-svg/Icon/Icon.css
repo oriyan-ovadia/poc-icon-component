@@ -1,0 +1,18 @@
+.Icon_root {
+  display: flex;
+}
+
+.Icon--sm svg {
+  width: 24px;
+  height: 24px;
+}
+
+.Icon--md svg {
+  width: 28px;
+  height: 28px;
+}
+
+.Icon--lg svg {
+  width: 32px;
+  height: 32px;
+}
